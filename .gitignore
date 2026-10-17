@@ -1,0 +1,7 @@
+.venv/
+.python310/
+.cache/
+__pycache__/
+runs/
+data/raw/
+*.log

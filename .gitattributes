@@ -1,0 +1,2 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+data/prepared/images/*.png filter=lfs diff=lfs merge=lfs -text

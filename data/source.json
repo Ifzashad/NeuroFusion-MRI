@@ -1,0 +1,149 @@
+{
+  "url_public_html": "https://figshare.com/articles/dataset/brain_tumor_dataset/1512427/5",
+  "files": [
+    {
+      "id": 3381290,
+      "name": "brainTumorDataPublic_1-766.zip",
+      "size": 214401279,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/3381290",
+      "supplied_md5": "74b949ad33f042e6e103523091cd1428",
+      "computed_md5": "74b949ad33f042e6e103523091cd1428",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 3381293,
+      "name": "brainTumorDataPublic_1533-2298.zip",
+      "size": 215563856,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/3381293",
+      "supplied_md5": "8227bf6080cb71f15a88be8d25c79ae7",
+      "computed_md5": "8227bf6080cb71f15a88be8d25c79ae7",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 3381296,
+      "name": "brainTumorDataPublic_767-1532.zip",
+      "size": 217848429,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/3381296",
+      "supplied_md5": "7e8a875500d2c8a346f270538e29890e",
+      "computed_md5": "7e8a875500d2c8a346f270538e29890e",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 3381302,
+      "name": "brainTumorDataPublic_2299-3064.zip",
+      "size": 231679762,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/3381302",
+      "supplied_md5": "b378a80d6174e5317d59eb28430c6652",
+      "computed_md5": "b378a80d6174e5317d59eb28430c6652",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 7005344,
+      "name": "cvind.mat",
+      "size": 5736,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/7005344",
+      "supplied_md5": "5ea82eb3212c9fcb84290ccf0beb486d",
+      "computed_md5": "5ea82eb3212c9fcb84290ccf0beb486d",
+      "mimetype": "application/x-hdf"
+    },
+    {
+      "id": 7953679,
+      "name": "README.txt",
+      "size": 1627,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/7953679",
+      "supplied_md5": "603d56ceb1bd0a2eeafbce09b434d4aa",
+      "computed_md5": "603d56ceb1bd0a2eeafbce09b434d4aa",
+      "mimetype": "text/plain"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 784074,
+      "full_name": "Jun Cheng",
+      "first_name": "Jun",
+      "last_name": "Cheng",
+      "is_active": true,
+      "url_name": "Jun_Cheng",
+      "orcid_id": "0000-0001-5493-961X"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/brain_tumor_dataset/1512427",
+  "download_disabled": false,
+  "description": "<p>This brain tumor dataset contains 3064 T1-weighted contrast-inhanced images with three kinds of brain tumor. Detailed information of the dataset can be found in readme file.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 5,
+  "status": "public",
+  "size": 879509079,
+  "created_date": "2017-04-02T19:59:57Z",
+  "modified_date": "2024-12-21T12:57:21Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "MRI images",
+    "brain tumor",
+    "tumor classification",
+    "Artificial Intelligence and Image Processing"
+  ],
+  "keywords": [
+    "MRI images",
+    "brain tumor",
+    "tumor classification",
+    "Artificial Intelligence and Image Processing"
+  ],
+  "categories": [
+    {
+      "id": 28864,
+      "title": "Artificial intelligence not elsewhere classified",
+      "parent_id": 28825,
+      "path": "/28798/28825/28864",
+      "source_id": "460299",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Cheng, Jun (2017). brain tumor dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1512427.v5",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 1512427,
+  "title": "brain tumor dataset",
+  "doi": "10.6084/m9.figshare.1512427.v5",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/1512427",
+  "published_date": "2017-04-02T19:59:57Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/1512427",
+  "url_public_api": "https://api.figshare.com/v2/articles/1512427",
+  "url_private_html": "https://figshare.com/account/articles/1512427",
+  "timeline": {
+    "posted": "2017-04-02T19:59:57",
+    "firstOnline": "2017-04-02"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

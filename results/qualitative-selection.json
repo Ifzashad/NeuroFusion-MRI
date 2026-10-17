@@ -1,0 +1,115 @@
+{
+  "checkpoint_sha256": "a5344d0ca991dfae44b6211d073272fb701cae5674e2624e535f47afbda22480",
+  "manifest_sha256": "7c77b98769f408ea85767dc4f1b42c2509686587212c1584871b123cc01b44e9",
+  "selection": "First correct and first incorrect slice per true class in manifest order, distinct patients; unavailable categories omitted.",
+  "attribution": "Grad-CAM of predicted class at final fused feature map. Not a detector or segmentation.",
+  "features": {
+    "image": "images/0035.png",
+    "channels": {
+      "DenseNet projection": [
+        82,
+        30,
+        96,
+        46
+      ],
+      "Xception projection": [
+        108,
+        65,
+        60,
+        117
+      ],
+      "ConvLSTM": [
+        63,
+        42,
+        7,
+        73
+      ],
+      "After CBAM": [
+        42,
+        37,
+        5,
+        119
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case": 1,
+      "image": "images/0035.png",
+      "true_class": "meningioma",
+      "prediction": "meningioma",
+      "probabilities": {
+        "meningioma": 0.5413328409194946,
+        "glioma": 0.3706129193305969,
+        "pituitary": 0.08805421739816666
+      },
+      "correct": true,
+      "annotation_source": "103.mat"
+    },
+    {
+      "case": 2,
+      "image": "images/1679.png",
+      "true_class": "meningioma",
+      "prediction": "pituitary",
+      "probabilities": {
+        "meningioma": 0.0438242182135582,
+        "glioma": 0.01108567789196968,
+        "pituitary": 0.9450900554656982
+      },
+      "correct": false,
+      "annotation_source": "251.mat"
+    },
+    {
+      "case": 3,
+      "image": "images/0959.png",
+      "true_class": "glioma",
+      "prediction": "glioma",
+      "probabilities": {
+        "meningioma": 0.0328206829726696,
+        "glioma": 0.9376254081726074,
+        "pituitary": 0.029553944244980812
+      },
+      "correct": true,
+      "annotation_source": "1862.mat"
+    },
+    {
+      "case": 4,
+      "image": "images/1154.png",
+      "true_class": "glioma",
+      "prediction": "meningioma",
+      "probabilities": {
+        "meningioma": 0.9334384799003601,
+        "glioma": 0.043174270540475845,
+        "pituitary": 0.023387260735034943
+      },
+      "correct": false,
+      "annotation_source": "2037.mat"
+    },
+    {
+      "case": 5,
+      "image": "images/0040.png",
+      "true_class": "pituitary",
+      "prediction": "pituitary",
+      "probabilities": {
+        "meningioma": 0.01759764738380909,
+        "glioma": 0.00923050194978714,
+        "pituitary": 0.9731718301773071
+      },
+      "correct": true,
+      "annotation_source": "1034.mat"
+    },
+    {
+      "case": 6,
+      "image": "images/0466.png",
+      "true_class": "pituitary",
+      "prediction": "meningioma",
+      "probabilities": {
+        "meningioma": 0.9802016615867615,
+        "glioma": 0.0055357362143695354,
+        "pituitary": 0.014262617565691471
+      },
+      "correct": false,
+      "annotation_source": "1418.mat"
+    }
+  ]
+}

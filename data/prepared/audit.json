@@ -1,0 +1,33 @@
+{
+  "train": {
+    "images": 1829,
+    "patients": 140,
+    "classes": {
+      "meningioma": 425,
+      "pituitary": 487,
+      "glioma": 917
+    }
+  },
+  "val": {
+    "images": 590,
+    "patients": 46,
+    "classes": {
+      "pituitary": 239,
+      "meningioma": 127,
+      "glioma": 224
+    }
+  },
+  "test": {
+    "images": 645,
+    "patients": 47,
+    "classes": {
+      "meningioma": 156,
+      "pituitary": 204,
+      "glioma": 285
+    }
+  },
+  "seed": 42,
+  "manifest_sha256": "7c77b98769f408ea85767dc4f1b42c2509686587212c1584871b123cc01b44e9",
+  "exact_pixel_duplicate_rows": 0,
+  "note": "Patient and exact-image disjoint; near-duplicate/site independence not established."
+}

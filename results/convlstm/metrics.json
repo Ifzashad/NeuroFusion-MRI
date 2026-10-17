@@ -1,0 +1,123 @@
+{
+  "split": "test",
+  "variant": "convlstm",
+  "images": 645,
+  "patients": 47,
+  "slice": {
+    "accuracy": 0.9178294573643411,
+    "macro_f1": 0.9096393209263488,
+    "confusion_matrix": [
+      [
+        149,
+        7,
+        0
+      ],
+      [
+        10,
+        274,
+        1
+      ],
+      [
+        28,
+        7,
+        169
+      ]
+    ],
+    "classification_report": {
+      "meningioma": {
+        "precision": 0.7967914438502673,
+        "recall": 0.9551282051282052,
+        "f1-score": 0.8688046647230321,
+        "support": 156.0
+      },
+      "glioma": {
+        "precision": 0.9513888888888888,
+        "recall": 0.9614035087719298,
+        "f1-score": 0.956369982547993,
+        "support": 285.0
+      },
+      "pituitary": {
+        "precision": 0.9941176470588236,
+        "recall": 0.8284313725490197,
+        "f1-score": 0.9037433155080213,
+        "support": 204.0
+      },
+      "accuracy": 0.9178294573643411,
+      "macro avg": {
+        "precision": 0.9140993265993266,
+        "recall": 0.9149876954830516,
+        "f1-score": 0.9096393209263488,
+        "support": 645.0
+      },
+      "weighted avg": {
+        "precision": 0.9275120908123645,
+        "recall": 0.9178294573643411,
+        "f1-score": 0.91854668075443,
+        "support": 645.0
+      }
+    },
+    "macro_auc_ovr": 0.9722094036709112
+  },
+  "patient": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        17,
+        0,
+        0
+      ],
+      [
+        0,
+        17,
+        0
+      ],
+      [
+        0,
+        0,
+        13
+      ]
+    ],
+    "classification_report": {
+      "meningioma": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "glioma": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "pituitary": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 47.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 47.0
+      }
+    },
+    "macro_auc_ovr": 1.0
+  },
+  "patient_macro_f1_stratified_bootstrap_ci95": [
+    1.0,
+    1.0
+  ],
+  "checkpoint_sha256": "85af4fb1d6bfa4afe65d4119e9409831e9a0c3d767edca9d4012d8778b3da3c7",
+  "manifest_sha256": "7c77b98769f408ea85767dc4f1b42c2509686587212c1584871b123cc01b44e9",
+  "checkpoint_epoch": 17
+}

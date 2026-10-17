@@ -1,0 +1,21 @@
+backbone_lr: 0.0001
+batch_size: 8
+channels: 128
+classes:
+- meningioma
+- glioma
+- pituitary
+dropout: 0.4
+epochs: 80
+freeze_epochs: 3
+head_lr: 0.001
+image_size: 224
+label_smoothing: 0.05
+manifest_sha256: 7c77b98769f408ea85767dc4f1b42c2509686587212c1584871b123cc01b44e9
+min_delta: 0.0001
+patience: 15
+pretrained: true
+seed: 42
+variant: densenet
+weight_decay: 0.0001
+workers: 4
