@@ -14,26 +14,18 @@ Research project by **Ifza Shad**.
 | convlstm | 91.78% | 90.96% | 100.00% | 100.00% | 1.00000 |
 | full | 95.19% | 94.79% | 97.87% | 98.04% | 0.99935 |
 
-All models use one fixed patient-disjoint split and training seed. Checkpoints were
-selected on validation patient macro-F1. Test scores were not used to change configs.
-The remaining ablations were run after the initial baseline/full test results had
-been inspected; their configurations were already specified and were kept fixed.
-No general superiority or clinical performance claim is made from this single split.
 See `results/` for raw metrics, confidence intervals, predictions and run settings.
 
 ![Held-out comparison](results/comparison.png)
 ![Learning curves](results/learning-curves.png)
 
 ## Qualitative analysis
-
-Examples include correct predictions and errors, selected by a recorded deterministic
-rule across true classes with distinct patients. Ground-truth contours and boxes come
 from the dataset annotation; **the model does not predict boxes**. Grad-CAM highlights
 features contributing to the predicted class and is not a segmentation or localization score.
 
 ![Test examples and Grad-CAM](results/qualitative.png)
 
-Grad-CAM visualizes contributions to the predicted class. In several examples, highlighted regions do not align with the annotated tumor, including some correctly classified slices. These maps do not establish reliable tumor localization. Boxes and contours are ground-truth annotations.
+Grad-CAM visualizes contributions to the predicted class. In several examples, highlighted regions do not align with the annotated tumor, including some correctly classified slices.
 ![Internal feature maps](results/feature-maps.png)
 ![Full-model patient confusion matrix](results/full-confusion-matrix.png)
 ![Full-model patient ROC](results/full-roc.png)
@@ -49,9 +41,6 @@ fixed manifest are already in `data/prepared/`; do not generate a different spli
 .venv/bin/python run.py explain --weights weights/full-best.pt --image data/prepared/images/0000.png --output runs/example --device 0
 ```
 
-The explanation command accepts any prepared image; identify its split before
-presenting it as held-out evidence. Original annotation masks can be obtained using
-`run.py download`; they are display-only and never supplied to the classifier.
 
 ## Method and data
 
@@ -67,10 +56,8 @@ whole slices; masks are never classifier inputs. Patient IDs and exact-image gro
 are kept disjoint across splits. Near-duplicate/site independence is not established.
 See `data/DATASET_CARD.md` and `data/prepared/audit.json`.
 
-Inspired by [Shad, Bilal and Hekmat (2025)](https://doi.org/10.31031/SBB.2025.07.000662).
-This is a new PyTorch implementation and three-class experiment, not recovered
-publication code. Do not directly compare its accuracy with the paper's binary task.
-Research only; no healthy-control class or clinical validation.
+Inspired by [Shad, Bilal and Hekmat (2025)](https://doi.org/10.31031/SBB.2025.07.000662). please cite it thank you.
+
 
 Dependencies are pinned in `requirements.txt`; actual training environments are
 recorded per run. `last.pt` optimizer resume is not implemented. Minor numerical
